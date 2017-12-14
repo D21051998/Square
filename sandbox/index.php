@@ -5,7 +5,7 @@ class Events{
     public $event_id;
     public $date_w;
 
-    public function_construct($event_id){
+    public function __construct($event_id){
         $this->event_id = (string) $event_id;
     }
 
